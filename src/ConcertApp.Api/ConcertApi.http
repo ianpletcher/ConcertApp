@@ -1,0 +1,6 @@
+@ConcertApi_HostAddress = http://localhost:5197
+
+GET {{ConcertApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

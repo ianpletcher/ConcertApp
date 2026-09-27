@@ -1,0 +1,35 @@
+$kind: http-request
+name: Create Concert
+method: POST
+url: '{{baseUrl}}/Concert'
+order: 3000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "date": "2026-08-15",
+      "venue": {
+        "id": 1,
+        "name": "Madison Square Garden",
+        "city": "New York",
+        "state": "NY",
+        "country": "US",
+        "servesAlcohol": true,
+        "allAges": false,
+        "type": 4
+      },
+      "artist": {
+        "id": 1,
+        "name": "Taylor Swift",
+        "dob": "1989-12-13",
+        "country": "US",
+        "genre": "Pop",
+        "popularity": 100
+      },
+      "support": "Gracie Abrams",
+      "festival": false,
+      "tourName": "The Eras Tour"
+    }

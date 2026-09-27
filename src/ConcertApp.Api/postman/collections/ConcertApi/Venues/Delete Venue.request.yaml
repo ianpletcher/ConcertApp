@@ -1,0 +1,5 @@
+$kind: http-request
+name: Delete Venue
+method: DELETE
+url: '{{baseUrl}}/Venue/{{venueId}}'
+order: 4000

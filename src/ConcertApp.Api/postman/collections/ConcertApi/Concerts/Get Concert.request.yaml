@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get Concert
+method: GET
+url: '{{baseUrl}}/Concert/{{concertId}}'
+order: 2000

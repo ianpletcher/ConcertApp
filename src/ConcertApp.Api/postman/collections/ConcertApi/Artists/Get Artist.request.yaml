@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get Artist
+method: GET
+url: '{{baseUrl}}/Artist/{{artistId}}'
+order: 1000

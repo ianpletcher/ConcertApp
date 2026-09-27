@@ -1,0 +1,20 @@
+$kind: http-request
+name: Create Venue
+method: POST
+url: '{{baseUrl}}/Venue'
+order: 2000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Madison Square Garden",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "servesAlcohol": true,
+      "allAges": false,
+      "type": 4
+    }

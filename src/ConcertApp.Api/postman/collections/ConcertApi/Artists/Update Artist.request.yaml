@@ -1,0 +1,19 @@
+$kind: http-request
+name: Update Artist
+method: PUT
+url: '{{baseUrl}}/Artist/{{artistId}}'
+order: 3000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "id": 1,
+      "name": "Taylor Swift",
+      "dob": "1989-12-13",
+      "country": "US",
+      "genre": "Pop",
+      "popularity": 99
+    }

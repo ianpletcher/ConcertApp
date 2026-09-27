@@ -1,0 +1,5 @@
+$kind: http-request
+name: Get Venue
+method: GET
+url: '{{baseUrl}}/Venue/{{venueId}}'
+order: 1000

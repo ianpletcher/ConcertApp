@@ -1,0 +1,18 @@
+$kind: http-request
+name: Create Artist
+method: POST
+url: '{{baseUrl}}/Artist'
+order: 2000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Taylor Swift",
+      "dob": "1989-12-13",
+      "country": "US",
+      "genre": "Pop",
+      "popularity": 100
+    }

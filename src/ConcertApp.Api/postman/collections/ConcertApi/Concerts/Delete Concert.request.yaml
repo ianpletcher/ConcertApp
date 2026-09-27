@@ -1,0 +1,5 @@
+$kind: http-request
+name: Delete Concert
+method: DELETE
+url: '{{baseUrl}}/Concert/{{concertId}}'
+order: 5000

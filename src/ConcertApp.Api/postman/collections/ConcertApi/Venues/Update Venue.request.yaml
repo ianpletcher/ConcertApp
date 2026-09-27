@@ -1,0 +1,21 @@
+$kind: http-request
+name: Update Venue
+method: PUT
+url: '{{baseUrl}}/Venue/{{venueId}}'
+order: 3000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "id": 1,
+      "name": "Madison Square Garden",
+      "city": "New York",
+      "state": "NY",
+      "country": "US",
+      "servesAlcohol": true,
+      "allAges": false,
+      "type": 5
+    }

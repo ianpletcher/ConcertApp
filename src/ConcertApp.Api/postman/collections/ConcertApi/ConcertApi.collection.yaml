@@ -1,0 +1,12 @@
+$kind: collection
+name: ConcertApi
+description: 'CRUD endpoints for the ConcertApi ASP.NET project — Artists, Concerts, and Venues.'
+variables:
+  - key: baseUrl
+    value: 'https://localhost:5001'
+  - key: artistId
+    value: '1'
+  - key: concertId
+    value: '1'
+  - key: venueId
+    value: '1'
